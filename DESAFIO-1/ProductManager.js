@@ -35,14 +35,14 @@ class ProductManager {
     }
 
     getProductById(id) {
-        return new Promise((resolve, reject) => {
-            const productFound = this.products.find(p => p.id === id)
-
-            if(productFound) reject("Not Found")
-
-            resolve(productFound)
-        })
+        const productFound = this.products.find(p => p.id === id)
+        if (productFound) {
+            console.log("Producto encontrado: ", productFound)
+        } else {
+            console.log("NOT FOUND")
+        }
     }
+
 }
 
 const manager = new ProductManager
@@ -50,11 +50,9 @@ const manager = new ProductManager
 manager.addProduct("Coca-Cola zero", "sin azucar", 500, "0001", 55)
 manager.addProduct("Coca-Cola zero", "sin azucar", 500, "0001", 55)
 manager.addProduct("Fanta", "naranja", 500, "0002", 57)
-console.log(manager.getProducts())
+console.log("Lista de productos", manager.getProducts())
 
-manager.getProductById("1")
-.then((resultado) => console.log(resultado))
-.catch((err) => console.log(err))
+manager.getProductById(1)
 
 
 

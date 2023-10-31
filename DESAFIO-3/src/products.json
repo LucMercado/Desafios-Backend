@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Coca Cola Zero",
+        "description": "sin azucar",
+        "price": 600,
+        "thumbnail": "una ruta",
+        "code": "aAbBcC",
+        "stock": 45,
+        "id": 1
+    },
+    {
+        "title": "Fanta",
+        "description": "naranja",
+        "price": 600,
+        "thumbnail": "una ruta",
+        "code": "abbc",
+        "stock": 40,
+        "id": 2
+    },
+    {
+        "title": "Sprite",
+        "description": "lima limon",
+        "price": 600,
+        "thumbnail": "una ruta",
+        "code": "bdcs",
+        "stock": 55,
+        "id": 3
+    },
+    {
+        "title": "Coca Cola",
+        "description": "comun",
+        "price": 600,
+        "thumbnail": "una ruta",
+        "code": "bdea",
+        "stock": 45,
+        "id": 4
+    },
+    {
+        "title": "Coca Cola Zero",
+        "description": "sin azucar",
+        "price": 600,
+        "thumbnail": "una ruta",
+        "code": "acbd",
+        "stock": 43,
+        "id": 5
+    }
+]
